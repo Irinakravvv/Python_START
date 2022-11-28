@@ -8,3 +8,11 @@
 4
 [1, 2, 6, 24]
 """
+n = int(input("Введите число: "))
+f = 1
+if (n % 1 == 0 and n >= 0):
+    for i in range(1, n + 1):
+       f = (i * f)
+       print (f)
+print([f])
+#elsif: print ("Ввели не целое или отрицательное число")   
