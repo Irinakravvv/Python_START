@@ -16,3 +16,11 @@
 3
 6.62
 """
+print('Введите число')
+n = int(input())
+list = [round((1 + 1/i)** i, 3) for i in range(1, n + 1)]
+print ([round(sum(list), 3)])
+
+
+
+ 
